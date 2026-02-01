@@ -1,1 +1,1 @@
-Siga-me nas redes: [GitHub](https://github.com/Fabricio-Antonio) e [LinkedIn](https://www.linkedin.com/in/fabricio-ss/)
+Siga-me nas redes: <a href="https://github.com/Fabricio-Antonio" target="_blank">GitHub</a> e <a href="https://www.linkedin.com/in/fabricio-ss/" target="_blank">LinkedIn</a>
