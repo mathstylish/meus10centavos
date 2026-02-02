@@ -11,11 +11,15 @@ author: fabricio
 Lista todos os processo que estão rodando
 
 ```bash
-sudo netstats -tlpn
+sudo ss -tlpn
 ```
 Lista todos os processos que estão rodando na porta <número>
 ```bash
-sudo netstats -tlpn | grep <número>
+sudo ss -tlpn | grep <número>
+```
+Exemplo:
+```bash
+sudo ss -tlpn | grep 8000
 ```
 Mata processo que está rodando na porta 8000
 ```bash
