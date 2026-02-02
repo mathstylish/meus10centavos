@@ -11,6 +11,8 @@ author: carlos
 Swap é muito útil no mundo Linux. Como dito em Como fazer swap
 , do Fabrício, o artigo apenas ensina como fazer swap via swapfile em distribuições médias. Porém, aqui serei mais complexo no ramo de swap. Sugiro que vejam primeiro o blog do Fabrício antes deste.
 
+Artigo citado: [Como fazer SWAP](https://www.meus10centavos.com.br/como-fazer-swap.html)
+
 ## Zram
 
 O Zram (anteriormente compcache) é um módulo do kernel Linux que cria um dispositivo de bloco comprimido na RAM, funcionando como um “disco” de troca (swap) virtual. Ao comprimir dados em tempo real na memória, ele evita o uso do disco rígido ou SSD, que são mais lentos.
