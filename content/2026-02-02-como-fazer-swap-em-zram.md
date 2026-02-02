@@ -96,3 +96,10 @@ apos o reinicio execute:
 ```
 swapon --show
 ```
+
+##### Créditos
+Agradeço a contribuição do Carlos Souza.
+
+GitHub: [github.com/csouzape](https://github.com/csouzape)\
+X(antigo Twitter): [x.com/kourge01](https://x.com/kourge01)\
+Reddit: [reddit.com/user/csouzape/](https://www.reddit.com/user/csouzape/)

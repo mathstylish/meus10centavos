@@ -27,6 +27,27 @@
       "language": "pt-BR"
     },
     {
+      "id": "https://meus10centavos.vercel.app//como-fazer-swap-em-zram.html",
+      "url": "https://meus10centavos.vercel.app//como-fazer-swap-em-zram.html",
+      "title": "Como fazer swap em Zram",
+      "content_html": "<!-- Content Injected to every content markdown header -->\n<h2><a href=\"#como-fazer-swap-em-zram\" aria-hidden=\"true\" class=\"anchor\" id=\"como-fazer-swap-em-zram\"></a>Como Fazer Swap em Zram</h2>\n<p>Swap é muito útil no mundo Linux. Como dito em Como fazer swap\n, do Fabrício, o artigo apenas ensina como fazer swap via swapfile em distribuições médias. Porém, aqui serei mais complexo no ramo de swap. Sugiro que vejam primeiro o blog do Fabrício antes deste.</p>\n<h2><a href=\"#zram\" aria-hidden=\"true\" class=\"anchor\" id=\"zram\"></a>Zram</h2>\n<p>O Zram (anteriormente compcache) é um módulo do kernel Linux que cria um dispositivo de bloco comprimido na RAM, funcionando como um “disco” de troca (swap) virtual. Ao comprimir dados em tempo real na memória, ele evita o uso do disco rígido ou SSD, que são mais lentos.</p>\n<ul>\n<li>\n<p>Em resumo, o Zram é muito mais rápido do que swapfile.</p>\n</li>\n<li>\n<p>É muito útil em sistemas rolling release, pois faz bastante diferença na velocidade do sistema, como no Fedora ou Arch Linux.</p>\n</li>\n</ul>\n<h2><a href=\"#arch-linux\" aria-hidden=\"true\" class=\"anchor\" id=\"arch-linux\"></a>Arch Linux</h2>\n<p>No Arch Linux temos o zram-generator. Certifique-se de que ele está instalado:</p>\n<pre><code>\nsudo pacman -S zram-generator\n</code></pre>\n<p>Crie o arquivo de configuração em <code>/etc/systemd/zram-generator.conf</code>:</p>\n<pre><code>sudo vim /etc/systemd/zram-generator.conf\n</code></pre>\n<p>Ou, se preferir o Nano:</p>\n<pre><code>sudo nano /etc/systemd/zram-generator.conf\n</code></pre>\n<p>Dentro do arquivo zram-generator.conf, coloque:</p>\n<p>Para abordagem automática</p>\n<pre><code>[zram0]\n</code></pre>\n<h2><a href=\"#sugestão-de-tamanhos-de-zram\" aria-hidden=\"true\" class=\"anchor\" id=\"sugestão-de-tamanhos-de-zram\"></a>Sugestão de tamanhos de Zram</h2>\n<p>Se você tem 4 GB de RAM, use 2,5 GB de Zram ou igual\nSe tem 8 GB de RAM, use 4 GB de swap ou igual\nSe tem 16 GB de RAM, use 8 GB ou 12 GB de Zram\nSe tem 32 GB de RAM, use 4 GB ou 8 GB, apenas para manter</p>\n<pre><code>Obs.: O Zram é útil em máquinas com mais de 16 GB de RAM, pois quando a RAM chega a 100%, o Zram ou swapfile entra em ação para evitar travamentos. Quando o sistema não tem swap, ele pode simplesmente travar e fechar processos.\n</code></pre>\n<p>Exemplo de configuração manual:</p>\n<pre><code>[zram0]\nzram-size = 4096  # exemplo de 4 GB de swap\n</code></pre>\n<p>Sempre use:</p>\n<pre><code>zram-size = {RAM} x 1024\n</code></pre>\n<p>Exemplo: <code>8 GB = 8192</code></p>\n<h2><a href=\"#50-da-ram\" aria-hidden=\"true\" class=\"anchor\" id=\"50-da-ram\"></a>50% da ram</h2>\n<p>No mesmo arquivo, use:</p>\n<pre><code>zram-size = ram / 2\n</code></pre>\n<p>Isso define o Zram como 50% da RAM total.</p>\n<h2><a href=\"#config-recomendada\" aria-hidden=\"true\" class=\"anchor\" id=\"config-recomendada\"></a>Config recomendada</h2>\n<pre><code>[zram0]\nzram-size = ram / 2\ncompression-algorithm = zstd\nswap-priority = 100\n\n</code></pre>\n<p>rapido e util</p>\n<h2><a href=\"#aplicar\" aria-hidden=\"true\" class=\"anchor\" id=\"aplicar\"></a>Aplicar</h2>\n<pre><code>sudo systemctl daemon-reexec\nsudo systemctl start systemd-zram-setup@zram0.service\n</code></pre>\n<p>apos o reinicio execute:</p>\n<pre><code>swapon --show\n</code></pre>\n<h5><a href=\"#créditos\" aria-hidden=\"true\" class=\"anchor\" id=\"créditos\"></a>Créditos</h5>\n<p>Agradeço a contribuição do Carlos Souza.</p>\n<p>GitHub: <a href=\"https://github.com/csouzape\">github.com/csouzape</a><br />\nX(antigo Twitter): <a href=\"https://x.com/kourge01\">x.com/kourge01</a><br />\nReddit: <a href=\"https://www.reddit.com/user/csouzape/\">reddit.com/user/csouzape/</a></p>\n<!-- Content Injected to every content markdown footer -->\n",
+      "summary": "",
+      "date_published": "2026-02-02T00:00:00-00:00",
+      "image": "",
+      "authors": [
+        {
+          "name": "Carlos Souza",
+          "url": "",
+          "avatar": "https://avatars.githubusercontent.com/u/219468948?v=4"
+        }
+      ],
+      "tags": [
+        "linux",
+        "tutorial"
+      ],
+      "language": "pt-BR"
+    },
+    {
       "id": "https://meus10centavos.vercel.app//como-aprender-um-novo-idioma.html",
       "url": "https://meus10centavos.vercel.app//como-aprender-um-novo-idioma.html",
       "title": "Como aprender um novo idioma",
@@ -52,7 +73,7 @@
       "id": "https://meus10centavos.vercel.app//como-matar-processos-no-linux.html",
       "url": "https://meus10centavos.vercel.app//como-matar-processos-no-linux.html",
       "title": "Como matar processos no linux",
-      "content_html": "<!-- Content Injected to every content markdown header -->\n<p>É um tutorial de algo besta, mas eu sempre acabo esquecendo como faz, então vou salvar aqui</p>\n<p>Lista todos os processo que estão rodando</p>\n<pre><code class=\"language-bash\">sudo netstats -tlpn\n</code></pre>\n<p>Lista todos os processos que estão rodando na porta &lt;número&gt;</p>\n<pre><code class=\"language-bash\">sudo netstats -tlpn | grep &lt;número&gt;\n</code></pre>\n<p>Mata processo que está rodando na porta 8000</p>\n<pre><code class=\"language-bash\">sudo kill -9 `sudo lsof -t -i:&lt;número&gt;`\nsudo kill -9 $(lsof -t -i:&lt;número&gt;)\n</code></pre>\n<p>obs.: &lt;número&gt; deve ser todo incluindo o &lt;&gt; ser torcado pelo número</p>\n<!-- Content Injected to every content markdown footer -->\n",
+      "content_html": "<!-- Content Injected to every content markdown header -->\n<p>É um tutorial de algo besta, mas eu sempre acabo esquecendo como faz, então vou salvar aqui</p>\n<p>Lista todos os processo que estão rodando</p>\n<pre><code class=\"language-bash\">sudo ss -tlpn\n</code></pre>\n<p>Lista todos os processos que estão rodando na porta &lt;número&gt;</p>\n<pre><code class=\"language-bash\">sudo ss -tlpn | grep &lt;número&gt;\n</code></pre>\n<p>Exemplo:</p>\n<pre><code class=\"language-bash\">sudo ss -tlpn | grep 8000\n</code></pre>\n<p>Mata processo que está rodando na porta 8000</p>\n<pre><code class=\"language-bash\">sudo kill -9 `sudo lsof -t -i:&lt;número&gt;`\nsudo kill -9 $(lsof -t -i:&lt;número&gt;)\n</code></pre>\n<p>obs.: &lt;número&gt; deve ser todo incluindo o &lt;&gt; ser torcado pelo número</p>\n<!-- Content Injected to every content markdown footer -->\n",
       "summary": "",
       "date_published": "2026-02-01T00:00:00-00:00",
       "image": "",

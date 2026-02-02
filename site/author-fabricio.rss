@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meus 10 Centavos</title><link>https://meus10centavos.vercel.app/</link><description>Meus 10 centavos de contribuição para uma discussão que ninguém pediu minha opinião</description><pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate><lastBuildDate>Mon, 02 Feb 2026 07:13:50 GMT</lastBuildDate><generator>marmite</generator><item><title>Como fazer SWAP</title><link>https://meus10centavos.vercel.app//como-fazer-swap.html</link><author>fabricio</author><category>tutorial</category><category>linux</category><guid>https://meus10centavos.vercel.app//como-fazer-swap.html</guid><pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate><source url="https://meus10centavos.vercel.app/">author-fabricio</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meus 10 Centavos</title><link>https://meus10centavos.vercel.app/</link><description>Meus 10 centavos de contribuição para uma discussão que ninguém pediu minha opinião</description><pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate><lastBuildDate>Mon, 02 Feb 2026 21:23:25 GMT</lastBuildDate><generator>marmite</generator><item><title>Como fazer SWAP</title><link>https://meus10centavos.vercel.app//como-fazer-swap.html</link><author>fabricio</author><category>tutorial</category><category>linux</category><guid>https://meus10centavos.vercel.app//como-fazer-swap.html</guid><pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate><source url="https://meus10centavos.vercel.app/">author-fabricio</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
 <h2><a href="#o-que-é-swap" aria-hidden="true" class="anchor" id="o-que-é-swap"></a>O que é SWAP?</h2>
 <p>A swap é uma extensão temporária da sua memória RAM, feita usando o espaço do seu SSD ou HD tipo uma &quot;memória RAM fake&quot;.</p>
 <p>Quando a RAM enche, o Linux começa a jogar dados &quot;menos usados&quot; pra esse espaço da swap, pra liberar RAM pra o que é mais urgente.</p>
@@ -241,10 +241,13 @@ O linguista defende que um idioma é separado em duas partes: inputs e outputs (
 ]]></content:encoded></item><item><title>Como matar processos no linux</title><link>https://meus10centavos.vercel.app//como-matar-processos-no-linux.html</link><author>fabricio</author><category>tutorial</category><category>linux</category><guid>https://meus10centavos.vercel.app//como-matar-processos-no-linux.html</guid><pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate><source url="https://meus10centavos.vercel.app/">author-fabricio</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
 <p>É um tutorial de algo besta, mas eu sempre acabo esquecendo como faz, então vou salvar aqui</p>
 <p>Lista todos os processo que estão rodando</p>
-<pre><code class="language-bash">sudo netstats -tlpn
+<pre><code class="language-bash">sudo ss -tlpn
 </code></pre>
 <p>Lista todos os processos que estão rodando na porta &lt;número&gt;</p>
-<pre><code class="language-bash">sudo netstats -tlpn | grep &lt;número&gt;
+<pre><code class="language-bash">sudo ss -tlpn | grep &lt;número&gt;
+</code></pre>
+<p>Exemplo:</p>
+<pre><code class="language-bash">sudo ss -tlpn | grep 8000
 </code></pre>
 <p>Mata processo que está rodando na porta 8000</p>
 <pre><code class="language-bash">sudo kill -9 `sudo lsof -t -i:&lt;número&gt;`
