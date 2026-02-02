@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meus 10 Centavos</title><link>http://</link><description>Meus 10 centavos de contribuição para uma discussão que ninguém pediu minha opinião</description><pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate><lastBuildDate>Sun, 01 Feb 2026 19:09:01 GMT</lastBuildDate><generator>marmite</generator><item><title>Como aprender um novo idioma</title><link>http:///como-aprender-um-novo-idioma.html</link><author>fabricio</author><category>tutorial</category><category>inglês</category><guid>http:///como-aprender-um-novo-idioma.html</guid><pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate><source url="http://">tag-tutorial</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meus 10 Centavos</title><link>http://</link><description>Meus 10 centavos de contribuição para uma discussão que ninguém pediu minha opinião</description><pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate><lastBuildDate>Mon, 02 Feb 2026 01:38:41 GMT</lastBuildDate><generator>marmite</generator><item><title>Como aprender um novo idioma</title><link>http:///como-aprender-um-novo-idioma.html</link><author>fabricio</author><category>tutorial</category><category>inglês</category><category>curso</category><guid>http:///como-aprender-um-novo-idioma.html</guid><pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate><source url="http://">tag-tutorial</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
 <h3><a href="#observações" aria-hidden="true" class="anchor" id="observações"></a>Observações</h3>
 <p>Os exemplos de idioma alvo de prendizagem citado será o inglês, por ser o principal idioma de quem quer aprender outro idioma, mas o método de estudo que vou te passar podem ser aplicado para quaisquer idiomas.</p>
 <p>(Não cheguei a testar em idiomas asiáticos, idiomas locais do containente africano e nem arábicos)</p>
@@ -89,10 +89,10 @@ O linguista defende que um idioma é separado em duas partes: inputs e outputs (
 <a href="https://www.youtube.com/@BemPoliglota">Bem Poliglota</a><br />
 <a href="https://www.youtube.com/@Canguroenglish">Canguro English</a><br />
 <a href="https://www.youtube.com/@LearnEnglishwithBobtheCanadian">Learn English with Bob the Canadian</a><br />
-<a href="https://www.youtube.com/@RealLifeEnglish1/videos">RealLife English</a>\</p>
+<a href="https://www.youtube.com/@RealLifeEnglish1/videos">RealLife English</a></p>
 <p>Videos<br />
 <a href="https://youtu.be/T8ej2DfMnvQ?si=wLNTPQF_hruLoJaq">Os poderes de saber mais de uma língua</a><br />
-<a href="https://www.youtube.com/watch?v=_fmqo8p-57Q">Como seu cérebro muda ao falar outros idiomas</a>\</p>
+<a href="https://www.youtube.com/watch?v=_fmqo8p-57Q">Como seu cérebro muda ao falar outros idiomas</a></p>
 <!-- Content Injected to every content markdown footer -->
 ]]></content:encoded></item><item><title>Como criar um blog com Marmite</title><link>http:///como-criar-blog-marmite.html</link><author>fabricio</author><category>tutorial</category><category>marmite</category><category>rust</category><category>blog</category><guid>http:///como-criar-blog-marmite.html</guid><pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate><source url="http://">tag-tutorial</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
 <p>Neste tutorial, vou mostrar como criar seu próprio blog usando o <strong>Marmite</strong>, um gerador de sites estáticos escrito em Rust.</p>

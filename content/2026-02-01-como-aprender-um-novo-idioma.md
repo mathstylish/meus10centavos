@@ -2,7 +2,7 @@
 title: "Como aprender um novo idioma"
 slug: como-aprender-um-novo-idioma
 date: 2026-02-01
-tags: tutorial, inglês,
+tags: tutorial, inglês, curso
 author: fabricio
 ---
 
