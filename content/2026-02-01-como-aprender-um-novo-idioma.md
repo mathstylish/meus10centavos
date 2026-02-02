@@ -152,8 +152,8 @@ Canais\
 [Bem Poliglota](https://www.youtube.com/@BemPoliglota)\
 [Canguro English](https://www.youtube.com/@Canguroenglish)\
 [Learn English with Bob the Canadian](https://www.youtube.com/@LearnEnglishwithBobtheCanadian)\
-[RealLife English](https://www.youtube.com/@RealLifeEnglish1/videos)\
+[RealLife English](https://www.youtube.com/@RealLifeEnglish1/videos)
 
 Videos\
 [Os poderes de saber mais de uma língua](https://youtu.be/T8ej2DfMnvQ?si=wLNTPQF_hruLoJaq)\
-[Como seu cérebro muda ao falar outros idiomas](https://www.youtube.com/watch?v=_fmqo8p-57Q)\
+[Como seu cérebro muda ao falar outros idiomas](https://www.youtube.com/watch?v=_fmqo8p-57Q)
