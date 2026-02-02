@@ -49,6 +49,10 @@ authors:
     name: "Fabrício Santos"
     bio: "Não sou ninguém revelante, apenas um Fabrício entre os outros 167.869 FABRÍCIOs que existem no Brasil. Sou desenvolvedor Full-Esterco, faço m€rd4 no front e no back."
     avatar: "https://avatars.githubusercontent.com/u/90152237?v=4"
+  carlos:
+    name: "Carlos Souza"
+    bio: "I'm from Pernambuco, Brazil, currently studying to develop open source projects as a hobby."
+    avatar: "https://avatars.githubusercontent.com/u/219468948?v=4"
 
 toc: true
 json_feed: true
