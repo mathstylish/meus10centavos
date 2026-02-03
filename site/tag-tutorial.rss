@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meus 10 Centavos</title><link>https://meus10centavos.vercel.app/</link><description>Meus 10 centavos de contribuição para uma discussão que ninguém pediu minha opinião</description><pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate><lastBuildDate>Mon, 02 Feb 2026 23:03:20 GMT</lastBuildDate><generator>marmite</generator><item><title>Como fazer SWAP</title><link>https://meus10centavos.vercel.app//como-fazer-swap.html</link><author>fabricio</author><category>tutorial</category><category>linux</category><guid>https://meus10centavos.vercel.app//como-fazer-swap.html</guid><pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate><source url="https://meus10centavos.vercel.app/">tag-tutorial</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meus 10 Centavos</title><link>https://meus10centavos.vercel.app/</link><description>Meus 10 centavos de contribuição para uma discussão que ninguém pediu minha opinião</description><pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate><lastBuildDate>Tue, 03 Feb 2026 05:26:39 GMT</lastBuildDate><generator>marmite</generator><item><title>Como fazer um bom currículo otimizado para ATS</title><link>https://meus10centavos.vercel.app//como-fazer-um-bom-curriculo-otimizado-para-ats.html</link><author>fabricio</author><category>tutorial</category><category>carreira</category><guid>https://meus10centavos.vercel.app//como-fazer-um-bom-curriculo-otimizado-para-ats.html</guid><pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate><source url="https://meus10centavos.vercel.app/">tag-tutorial</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
+<h1><a href="#como-fazer-um-bom-currículo" aria-hidden="true" class="anchor" id="como-fazer-um-bom-currículo"></a>Como fazer um bom currículo</h1>
+<p>Essa estrutura de currículo é principalmente para profissionais de T.I., mais especificamente para programadores. Essa é a estrutura que eu mesmo uso e tenho tido bastante resultados.<br />
+O modelo de currículo que iriei te passar é <strong>otimizado para ATS.</strong></p>
+<p><strong>Observação:</strong> Caso você não saiba, meu caro juninho, quando vocẽ faz uma aplicação online para uma vaga, antes você passa por uma I.A. chamada ATS, Applicant Tracking System (Sistema de Rastreamento de Candidatos). Ou seja antes de você fazer os olhos do recrutador brilarem, você precisa fazer os leds do ATS ascenderem.</p>
+<p>Tenho quase certeza que você não tem noção da função de um currículo, não é um histórico de onde você trabalhou, o currículo serve para você dar carteirada e se exibir.</p>
+<h2><a href="#estrutura" aria-hidden="true" class="anchor" id="estrutura"></a>Estrutura</h2>
+<h3><a href="#cabeçalho-do-currículo" aria-hidden="true" class="anchor" id="cabeçalho-do-currículo"></a>Cabeçalho do currículo</h3>
+<p>No topo adicione suas informações. Nome e sobrenome, número de contato, LinkedIn e GitHub. CEP e cidade só se você estiver aplicando para presencial ou híbrido. A não ser que a vaga seja de modelo não motivo para você adicionar uma foto.</p>
+<p>Exemplo:</p>
+<img src="/media/cabeçalho.png" alt="Cabeçalho" width="700" height="500">
+<h3><a href="#resumo-profissional" aria-hidden="true" class="anchor" id="resumo-profissional"></a>Resumo profissional</h3>
+<p>Na parte do resumo profissional você adiciona qual sua função desejada, desenovlvedor Full-Stack, por exemplo. Importante que você não adicione &quot;patente&quot;, a empresa que descide se você é Júnior, Pleno ou Sênior.</p>
+<p>Por exemplo, se você colocar desenvolvedor Full-Stack Júnior, talvez você tenha capacidade de Pleno e até execute tarefas de Pleno, mas seja contratado como Júnior só pelo motivo de você ter se rotulado assim.</p>
+<p>No resumo profissional você tem que dar o máximo de carteirada em no máximo 4 linhas. Inclua tempo de experiência se você tiver, principais projetos relevantes que você participou. Adicione também sua linguagem e stack principal, isso já faz parte da otimização de ATS</p>
+<p>Exemplo: <br />
+<img src="/media/resumo.png" alt="resumo" width="700" height="500"></p>
+<p><strong>Observação:</strong> Não abuse do negrito, adicione apensas nas palavras que você quer que chame atenção. Negrito é apenas para as coisas importantes, se você colocar negrito em tudo então nada é importante.</p>
+<p>Prompt para gerar na IA:</p>
+<pre><code>Escreva um resumo profissional com no máximo 4 linhas de modo que me passe autoridade
+
+- [cite sua stack]
+- [tempo de experiência]
+- [cite projetos revelantes/que você se orgulha/ foi difícil fazer]
+</code></pre>
+<h3><a href="#formação-acadêmica-e-idiomas" aria-hidden="true" class="anchor" id="formação-acadêmica-e-idiomas"></a>Formação acadêmica e idiomas</h3>
+<p>Autoexplicativo...</p>
+<p>Exemplo:<br />
+<img src="/media/formação.png" alt="formação" width="700" height="500"></p>
+<h3><a href="#experiência-profissional" aria-hidden="true" class="anchor" id="experiência-profissional"></a>Experiência profissional</h3>
+<p>A forma como você irá descrever suas experiência é um pouco diferente de como um currículo comum é estruturado.<br />
+Para vagas de T.I. o ideal é essa estrutura:</p>
+<ul>
+<li>Função exercida e período de atuação ao lado</li>
+<li>Empresa</li>
+<li>Resumo geral da sua atuação/do projeto</li>
+<li>Suas principais responsabilidades</li>
+<li>Destaque. O que você fez que foi muito foda, teve muito reconhecimento, ou muito difícil?</li>
+<li>Técnologias que você utilizou</li>
+</ul>
+<p><strong>Observação:</strong> É crucial que você procure passar o máximo de autoridade aqui, essa é sua hora de se exibir igual um pavão, só não mostra o rabo.</p>
+<p>Exemplo:<br />
+<img src="/media/experiencia.png" alt="Experiência" width="700" height="500"></p>
+<p>Cite suas três últimas experiências, ou projetos grandes caso você seja estudante. Caso não tenha projetos grandes, fale dos prjetos que você tem mais orgulho e adicione o link dos repositório e dele em produção (se aplicável).</p>
+<p>As tecnologias utilizadas são cruciais pra que seu currículo tenha êxito com o ATS, pois ele funciona lendo todo o seu currículo e buscando as palavras-chaves para a vaga. Exemplo: Full-Stack, COBOL, assembly, Cassandra</p>
+<h3><a href="#habilidades-e-tecnologias" aria-hidden="true" class="anchor" id="habilidades-e-tecnologias"></a>Habilidades e Tecnologias</h3>
+<p>Aqui você fará na seguinte estrutura:</p>
+<ul>
+<li>Linguagens:</li>
+<li>Frameworks e Bibliotecas:</li>
+<li>Banco de Dados:</li>
+<li>Ferramentas:</li>
+<li>Metodologias Ágeis:</li>
+<li>Soft skills:</li>
+</ul>
+<p>Exemplo:<br />
+<img src="/media/habilidades.png" alt="Experiência" width="700" height="500"></p>
+<p><strong>o currículo deve conter no máximo 3 páginas</strong></p>
+<p>👉 <a href="/media/exemplo.docx">Baixar o modelo de currículo</a> 👈</p>
+<!-- Content Injected to every content markdown footer -->
+]]></content:encoded></item><item><title>Como fazer SWAP</title><link>https://meus10centavos.vercel.app//como-fazer-swap.html</link><author>fabricio</author><category>tutorial</category><category>linux</category><guid>https://meus10centavos.vercel.app//como-fazer-swap.html</guid><pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate><source url="https://meus10centavos.vercel.app/">tag-tutorial</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
 <h2><a href="#o-que-é-swap" aria-hidden="true" class="anchor" id="o-que-é-swap"></a>O que é SWAP?</h2>
 <p>A swap é uma extensão temporária da sua memória RAM, feita usando o espaço do seu SSD ou HD tipo uma &quot;memória RAM fake&quot;.</p>
 <p>Quando a RAM enche, o Linux começa a jogar dados &quot;menos usados&quot; pra esse espaço da swap, pra liberar RAM pra o que é mais urgente.</p>
