@@ -396,3 +396,9 @@ Gostou deste guia? Compartilhe com amigos que estão pensando em migrar para Lin
 - https://christitus.com/how-i-use-linux/
 - https://pt.wikipedia.org/wiki/Linux
 - https://www.linux.org/
+
+##### Créditos
+Agradeço a contribuição do Carlos Souza.
+
+GitHub: [github.com/csouzape](https://github.com/csouzape)\
+X(antigo Twitter): [x.com/kourge01](https://x.com/kourge01)\
