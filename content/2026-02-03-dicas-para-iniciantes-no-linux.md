@@ -48,7 +48,7 @@ Minha recomendação atual:
 - Capacidade mínima: 16GB (ideal: 64GB ou mais)
 - Modelo testado: SanDisk Cruzer Glide 64GB
 - Por quê? Velocidade de leitura/gravação superior e espaço para múltiplas ISOs
-<img src="/media/pendrive.jpg" alt="Pendrive SanDisk Cruzer Glide 64GB" width="700" height="500">
+<img src="/media/pendrive.png" alt="Pendrive SanDisk Cruzer Glide 64GB" width="200" height="500">
 
 ### 2. Criando um Pendrive Bootável
 Para instalar o Linux, você precisa tornar o pendrive "bootável" (inicializável). Existem três ferramentas principais:
@@ -59,7 +59,7 @@ Vantagens:
 - Basta copiar as ISOs para o pendrive
 - Mantém várias distribuições disponíveis ao mesmo tempo
 - Não precisa reformatar para adicionar novas ISOs
-<img src="/media/isos.jpg" alt="Múltiplas ISOs no Ventoy" width="700" height="500">
+<img src="/media/isos.png" alt="Múltiplas ISOs no Ventoy" width="700" height="500">
 
 ### Como usar:
 - Baixe o Ventoy em [ventoy.net](https://www.ventoy.net/)

@@ -1,10 +1,10 @@
 {
   "marmite_version": "0.2.7",
-  "posts": 9,
+  "posts": 10,
   "pages": 2,
-  "generated_at": "2026-02-04 00:13:14.127652093 -03:00",
-  "timestamp": 1770174794,
-  "elapsed_time": 0.078902685,
+  "generated_at": "2026-02-04 00:33:12.136804631 -03:00",
+  "timestamp": 1770175992,
+  "elapsed_time": 0.095628908,
   "config": {
     "name": "Meus 10 Centavos",
     "tagline": "Meus 10 centavos de contribuição para uma discussão que ninguém pediu minha opinião",
@@ -65,7 +65,7 @@
       "carlos": {
         "name": "Carlos Souza",
         "avatar": "https://avatars.githubusercontent.com/u/219468948?v=4",
-        "bio": "IT enthusiast.I'm from Pernambuco, Brazil, currently studying to develop open source projects as a hobby.",
+        "bio": "IT enthusiast. I'm from Pernambuco, Brazil, currently studying to develop open source projects as a hobby.",
         "links": null
       }
     },
