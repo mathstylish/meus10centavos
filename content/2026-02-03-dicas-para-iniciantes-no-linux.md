@@ -392,3 +392,8 @@ O Linux não é perfeito, mas oferece liberdade, controle e privacidade que sist
 Sobre o autor: Carlos Gabriel é desenvolvedor de sistemas com 7 anos de experiência em Linux. Atualmente usa Fedora com Hyprland em sua máquina principal e contribui com a comunidade  de software livre.
 
 Gostou deste guia? Compartilhe com amigos que estão pensando em migrar para Linux. Tem dúvidas? Deixe nos comentários ou participe das comunidades mencionadas acima.
+
+## Fontes
+- https://christitus.com/how-i-use-linux/
+- https://pt.wikipedia.org/wiki/Linux
+- https://www.linux.org/
