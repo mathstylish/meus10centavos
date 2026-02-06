@@ -2,7 +2,7 @@
 title: "Git prático para iniciantes - O início de um projeto"
 slug: git-prático-para-iniciantes
 date: 2026-04-02
-tags: versioning, tutorial
+tags: versioning, guide
 author: Matheus Henrique
 ---
 
